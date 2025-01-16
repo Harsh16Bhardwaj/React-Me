@@ -1,0 +1,25 @@
+# Ignore node_modules directory
+/node_modules/
+
+# Ignore log files
+*.log
+
+# Ignore dependency directories for specific package managers (if applicable)
+yarn.lock
+package-lock.json
+
+# Ignore build files and directories
+/dist/
+/build/
+
+# Ignore OS and IDE specific files
+.DS_Store
+.vscode/
+.idea/
+
+# Ignore environment variable files (optional)
+.env
+.env.local
+.env.development
+.env.test
+.env.production
